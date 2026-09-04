@@ -1097,12 +1097,7 @@ def draw_title_screen():
     screen.blit(school, (WIDTH // 2 - school.get_width() // 2, 18))
 
     # Animated wolf foreground.
-    frame = (pygame.time.get_ticks() // 150) % 4
-    wolf_sprite = make_wolf_sprite(RIGHT, frame)
-    screen.blit(
-        wolf_sprite,
-        wolf_sprite.get_rect(center=(WIDTH // 2 - 145, HEIGHT - 55))
-    )
+   
 
     # Start button.
     button_rect = pygame.Rect(WIDTH // 2 - 170, HEIGHT - 88, 340, 52)
