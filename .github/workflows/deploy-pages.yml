@@ -31,7 +31,7 @@ jobs:
         run: python -m pip install --upgrade pygbag
 
       - name: Build Wolf-Man
-        run: python -m pygbag --build --app_name wolf-man --title "Wolf-Man - Green River High School" .
+        run: cd Wolf-Man-Green-River-High-School && python -m pygbag --build --app_name wolf-man --title "Wolf-Man - Green River High School" .
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
