@@ -551,16 +551,19 @@ def draw_maze():
         ORANGE,
     )
 
-    screen.blit(score_text, (68, 9))
-    screen.blit(high_text, (68, 42))
-    screen.blit(
-        tiger_text,
-        (WIDTH // 2 - tiger_text.get_width() // 2, 15),
-    )
-    screen.blit(
-        lives_text,
-        (WIDTH - lives_text.get_width() - 18, 10),
-    )
+   screen.blit(score_text, (68, 10))
+screen.blit(high_text, (68, 40))
+
+screen.blit(
+    tiger_text,
+    (WIDTH // 2 - tiger_text.get_width() // 2, 10),
+)
+
+screen.blit(
+    lives_text,
+    (WIDTH - lives_text.get_width() - 18, 10),
+)
+    
 
     # Show remaining lives as small wolf mascot icons.
     if wolf_character_image is not None:
