@@ -1492,10 +1492,7 @@ async def main():
                 True,
                 GREEN,
             )
-            screen.blit(
-                hunt_text,
-                (WIDTH // 2 - hunt_text.get_width() // 2, 8),
-            )
+           
 
             if power_mode:
                 power_text = small_font.render(
