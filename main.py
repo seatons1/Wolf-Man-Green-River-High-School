@@ -1509,7 +1509,7 @@ async def main():
                     (
                         WIDTH // 2
                         - power_text.get_width() // 2,
-                        45,
+                        52,
                     ),
                 )
 
