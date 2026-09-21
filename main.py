@@ -32,7 +32,7 @@ pygame.init()
 TILE = 28
 COLS = 25
 ROWS = 23
-HUD_HEIGHT = 70
+HUD_HEIGHT = 85
 WIDTH = COLS * TILE
 HEIGHT = ROWS * TILE + HUD_HEIGHT
 FPS = 60
@@ -1506,7 +1506,7 @@ async def main():
                     (
                         WIDTH // 2
                         - power_text.get_width() // 2,
-                        52,
+                        58,
                     ),
                 )
 
