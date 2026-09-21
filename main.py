@@ -556,7 +556,7 @@ screen.blit(high_text, (68, 40))
 
 screen.blit(
     tiger_text,
-    (WIDTH // 2 - tiger_text.get_width() // 2, 10),
+    (WIDTH // 2 - tiger_text.get_width() // 2, 40),
 )
 
 screen.blit(
